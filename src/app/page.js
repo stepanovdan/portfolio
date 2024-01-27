@@ -6,6 +6,8 @@ export default function Home() {
   return (
     <main className="">
       <HomeComponent />
+      <HomeComponent />
+      <HomeComponent />
       <Educational />
     </main>
   );
