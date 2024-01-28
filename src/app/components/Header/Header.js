@@ -65,7 +65,7 @@ function Header() {
               {selectedIndex === 0 ? (
                 <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               ) : (
-                <span className="menu-effect transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                <span className="transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
               <a
                 className={`menu-item ${
@@ -81,7 +81,7 @@ function Header() {
               {selectedIndex === 1 ? (
                 <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               ) : (
-                <span className="menu-effect transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                <span className="transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
               <a
                 className={`menu-item ${
@@ -97,7 +97,7 @@ function Header() {
               {selectedIndex === 2 ? (
                 <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               ) : (
-                <span className="menu-effect transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                <span className="transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
               <a
                 className={`menu-item ${
@@ -113,13 +113,13 @@ function Header() {
               {selectedIndex === 3 ? (
                 <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               ) : (
-                <span className="menu-effect transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                <span className="transform opacity-100 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
               <a
                 className={`menu-item ${
                   selectedIndex === 3 ? "text-black" : ""
                 } text-[#666d47] group-hover:text-black:`}
-                href="/#about-me-component"
+                href="/#hire-me"
                 onClick={() => setSelectedIndex(3)}
               >
                 Hire Me

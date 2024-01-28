@@ -11,4 +11,5 @@
 
 .diagonal-drawer.open {
   transform: translate(0, 0);
+  height: auto;
 }
