@@ -144,7 +144,7 @@ function HomeComponent() {
             </div>
             <div className="col-span-12 pt-[50px] md:bg-transparent bg-[#d9eef7] md:pt-[130px] md:col-span-7">
               <div className="container m-auto">
-                <img src="/ehizeex.png" decoding="async" alt="hey"></img>
+                <img src="/mememe1.png" decoding="async" alt="hey"></img>
               </div>
             </div>
           </div>
