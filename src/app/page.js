@@ -4,6 +4,7 @@ import HomeComponent from "./components/HomeComponent/HomeComponent";
 import { Hind } from "next/font/google";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Slider from "./components/SliderCard/Slider";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -47,6 +48,9 @@ export default function Home() {
               sunt in culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
+        </div>
+        <div className="">
+          <Slider />
         </div>
       </div>
     </main>
