@@ -1,10 +1,10 @@
 "use client";
-import Educational from "./components/Educational/Educational";
+
 import HomeComponent from "./components/HomeComponent/HomeComponent";
 import { Hind } from "next/font/google";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "./components/SliderCard/Slider";
+import Slider from "./components/SliderCard/TheSlider";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="min-h-screen relative">
       <HomeComponent />
-      <Educational />
+
       <div
         id="portfolio"
         className="mt-0 pt-5 -mb-40"
@@ -49,7 +49,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="">
+        <div style={{ transform: "translate(0px, -150px )" }}>
           <Slider />
         </div>
       </div>
